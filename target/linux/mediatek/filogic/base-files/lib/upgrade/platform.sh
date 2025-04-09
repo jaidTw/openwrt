@@ -119,6 +119,7 @@ platform_do_upgrade() {
 		;;
 	asus,rt-ax59u|\
 	asus,tuf-ax4200|\
+	asus,tuf-ax4200q|\
 	asus,tuf-ax6000|\
 	asus,zenwifi-bt8)
 		CI_UBIPART="UBI_DEV"
@@ -267,6 +268,7 @@ platform_pre_upgrade() {
 	case "$board" in
 	asus,rt-ax59u|\
 	asus,tuf-ax4200|\
+	asus,tuf-ax4200q|\
 	asus,tuf-ax6000|\
 	asus,zenwifi-bt8)
 		asus_initial_setup
